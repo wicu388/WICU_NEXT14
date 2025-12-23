@@ -1,0 +1,1 @@
+export default function Home(){return <h1>WICU – Tienda IA 24/7</h1>}
