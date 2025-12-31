@@ -1,2 +1,2 @@
-# WICU – Fase 2 / Punto 2
-Core UI + navegación base.
+# WICU – Fase 2 / Punto 3
+Arquitectura sólida lista para escalar.

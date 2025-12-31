@@ -1,18 +1,16 @@
-import Link from 'next/link';
-
 export default function Home() {
   return (
     <main className="p-10 space-y-6">
-      <h1 className="text-4xl font-bold">WICU – Fase 2 / Punto 2</h1>
-      <p className="text-gray-400 max-w-xl">
-        Navegación base, layout sólido y punto de partida para módulos IA y tienda.
+      <h1 className="text-4xl font-bold">WICU – Fase 2 / Punto 3</h1>
+      <p className="text-gray-400 max-w-2xl">
+        Arquitectura base preparada para escalar: módulos IA, tienda, pagos y automatización.
       </p>
 
-      <nav className="flex gap-4">
-        <a className="px-4 py-2 bg-white text-black rounded-xl">Tienda</a>
-        <a className="px-4 py-2 bg-gray-800 rounded-xl">IA</a>
-        <a className="px-4 py-2 bg-gray-800 rounded-xl">Admin</a>
-      </nav>
+      <ul className="list-disc pl-6 text-gray-300 space-y-2">
+        <li>Estructura App Router estable</li>
+        <li>Preparado para APIs internas</li>
+        <li>Listo para integración IA y e-commerce</li>
+      </ul>
     </main>
   );
 }
