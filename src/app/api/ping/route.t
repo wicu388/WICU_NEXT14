@@ -1,7 +1,11 @@
-import { NextResponse } from "next/server";
-import { wicuEngine } from "@/core/engine";
+import { NextResponse } from "next/server"
+import { wicuEngine } from "@/src/core/engine"
 
 export async function GET() {
-  const result = wicuEngine("ping");
-  return NextResponse.json(result);
+  const engineStatus = wicuEngine("ping")
+
+  return NextResponse.json({
+    api: "online",
+    engine: engineStatus,
+  })
 }
